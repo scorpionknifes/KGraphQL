@@ -41,6 +41,10 @@ nexusStaging {
     delayBetweenRetriesInMillis = 10000 // 10 seconds
 }
 
+mavenPublish {
+  releaseSigningEnabled = false
+}
+
 tasks {
     wrapper {
         distributionType = Wrapper.DistributionType.ALL
