@@ -2,6 +2,7 @@ package com.apurebase.kgraphql
 
 import com.apurebase.kgraphql.schema.dsl.SchemaConfigurationDSL
 
+
 class KtorConfigurationDSL {
     /**
      * This adds support for opening the graphql route within the browser
